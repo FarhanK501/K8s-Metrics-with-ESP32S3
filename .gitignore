@@ -1,0 +1,76 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PlatformIO
+/.pio/
+platformio.ini
+/.pioenvs/
+/lib/
+*.bin
+*.elf
+*.hex
+*.map
+*.dSYM/
+*.o
+*.a
+*.d
+*.lst
+*.dbg
+
+# Build artifacts
+*.ilk
+*.log
+*.dSYM/
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Python cache files (if applicable)
+__pycache__/
+*.py[cod]
+
+# Other files to ignore
+*.swp
+*~
+
+# build folder
+/build/
